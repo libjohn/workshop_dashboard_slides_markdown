@@ -6,16 +6,54 @@ output: html_notebook
 ---
 
 - [ ] markdown/Markdup  (literate coding & Reproducibility ~Jupyter notebook)
-- [ ] Show side by side at hackMD
-- [ ] exercise and render with pandoc
-- [ ] citation to definitive markdown guide
-- [ ] exhaustive URL resource list (markdown, render, pandoc)
+- [x] Send meeting link
+- [x] Show side by side at hackMD
+- [x] exercise and render with pandoc
+- [x] citation to definitive markdown guide
+- [x] exhaustive URL resource list (markdown, render, pandoc)
 - [ ] slides with speaker notes
-- [ ] plus you can do citations and bibliographies
-- [ ] markdown with some R code
+- [x] plus you can do citations and bibliographies
+- [x] markdown with some R code
 - [ ] ggplot image.  And make the image bigger with the markdown code-chunk options
-- [ ] Render many different styles: slides, e-book, website, PDF, MSWord, Journal Articles
-- [ ] LaTex ; CSS 
-- [ ] Xaringan / Duke Slides
-- [ ] make a hackMD editable by all to assist in the questions / answers
+- [x] Render many different styles: slides, e-book, website, PDF, MSWord, Journal Articles
+- [x] LaTex ; CSS 
+- [x] Xaringan / Duke Slides
 - [ ] make a README
+- [ ] build the new flex dashboard with geom_label
+- [x] practice rasining hands with e-beth
+- [ ] urls also posted to github/links.md
+
+
+## OUTLINE
+
+- Welcome
+
+    - Intro to workshop && Zoom
+    - I hope everyone is doing o.k. and encourage you to keep doing your best
+    - Everyone Muted / Chat box will be the primary way to ask questions  / Raise Hand
+    - Please fill attendance
+    
+        - Find Links in the chatbox and in the Code repository
+        
+    - Remind you of the prerequisities and links to previous workshops
+    
+- Intro to Markdown
+
+    - https://rmarkdown.library.duke.edu/slides
+    - [HackMD](https://hackmd.io/RWm4tV2nRrSLWNMSndQHxw?both) 
+    - exercise_01.Rmd   
+
+        - Your Turn 1 - **5 minutes**.  Be sure to Render the document
+        - Your Turn 2 - 2 minutes
+        
+- Xaringan / Slides (Duke Slides)
+
+    - https://slides.yihui.org/xaringan/#6
+    
+        - Practice composing slides
+        - Add a code chunk and generate the output
+        
+- Dashboards
+
+    - 
+    
