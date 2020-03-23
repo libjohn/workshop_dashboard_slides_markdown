@@ -5,13 +5,18 @@ John Little
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+In this [Rfun workshop](https://rfun.library.duke.edu/), learn how to
+create **reproducible reports** using the literate coding methods
+rendered by **R Markdown** to produce **slides**, **dashboards**, and
+more…
+
 ## URLs for this workshop
 
 **Zoom Link** <https://duke.zoom.us/j/283485470>
 
 ### SURVEYS / ATTENDANCE
 
-Pre/attendance: <https://forms.gle/YHSutWRbLtHyAwxe6>
+Pre-workshop survey / attendance: <https://forms.gle/YHSutWRbLtHyAwxe6>
 
 ### CODE:
 
@@ -34,6 +39,10 @@ Pre/attendance: <https://forms.gle/YHSutWRbLtHyAwxe6>
 
   - [R Markdown Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
     by Yihui Xie, J. J. Allaire, Garrett Grolemund
+
+### Feedback
+
+Post workshop survey: <https://forms.gle/LQ5bvy5y2FS9fVVS7>
 
 ### Shareable:
 

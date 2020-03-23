@@ -1,32 +1,13 @@
 ---
-title: "todo notes"
+title: "outline / notes"
 author:  "John Little"
 date:  "r Sys.Date()"
 output: html_notebook
 ---
 
-- [ ] markdown/Markdup  (literate coding & Reproducibility ~Jupyter notebook)
-- [x] Send meeting link
-- [x] Show side by side at hackMD
-- [x] exercise and render with pandoc
-- [x] citation to definitive markdown guide
-- [x] exhaustive URL resource list (markdown, render, pandoc)
-- [ ] slides with speaker notes
-- [x] plus you can do citations and bibliographies
-- [x] markdown with some R code
-- [ ] ggplot image.  And make the image bigger with the markdown code-chunk options
-- [x] Render many different styles: slides, e-book, website, PDF, MSWord, Journal Articles
-- [x] LaTex ; CSS 
-- [x] Xaringan / Duke Slides
-- [ ] make a README
-- [ ] build the new flex dashboard with geom_label
-- [x] practice rasining hands with e-beth
-- [ ] urls also posted to github/links.md
-
-
 ## OUTLINE
 
-- Welcome
+- Welcome 
 
     - Intro to workshop && Zoom
     - I hope everyone is doing o.k. and encourage you to keep doing your best
@@ -65,3 +46,22 @@ output: html_notebook
         - 11_exercises_timeseries.Rmd
         - 12_exercises_crosstalk_map.Rmd
         - 13_exercises_all_together.Rmd
+        
+## ToDo
+
+- [ ] markdown/Markdup  (literate coding & Reproducibility ~Jupyter notebook)
+- [x] Send meeting link
+- [x] Show side by side at hackMD
+- [x] exercise and render with pandoc
+- [x] citation to definitive markdown guide
+- [x] exhaustive URL resource list (markdown, render, pandoc)
+- [ ] slides with speaker notes
+- [x] plus you can do citations and bibliographies
+- [x] markdown with some R code
+- [x] Render many different styles: slides, e-book, website, PDF, MSWord, Journal Articles
+- [x] LaTex ; CSS 
+- [x] Xaringan / Duke Slides
+- [ ] make a README
+- [ ] build the new flex dashboard with geom_label
+- [x] practice rasining hands with e-beth
+- [ ] urls also posted to github/links.md

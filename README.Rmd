@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 library(tidyverse)
 ```
 
+In this [Rfun workshop](https://rfun.library.duke.edu/), learn how to create **reproducible reports** using the literate coding methods rendered by **R Markdown** to produce **slides**, **dashboards**, and more...
 
 
 ## URLs for this workshop
@@ -26,7 +27,7 @@ library(tidyverse)
 
 ### SURVEYS / ATTENDANCE
 
-Pre/attendance:  https://forms.gle/YHSutWRbLtHyAwxe6
+Pre-workshop survey / attendance:  https://forms.gle/YHSutWRbLtHyAwxe6
 
 ### CODE:
 
@@ -46,6 +47,11 @@ https://github.com/libjohn/workshop_dashboard_slides_markdown
 
 - [Other CDVS Workshops](https://library.duke.edu/data/workshops)      
 - [R Markdown Definitive Guide](https://bookdown.org/yihui/rmarkdown/) by Yihui Xie, J. J. Allaire, Garrett Grolemund  
+
+
+### Feedback
+
+Post workshop survey:  https://forms.gle/LQ5bvy5y2FS9fVVS7
 
 
 
