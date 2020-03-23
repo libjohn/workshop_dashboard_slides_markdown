@@ -6,7 +6,7 @@ abstract:  "To render this document, click the preview button (Ctrl+Shift+K)"
 output:  html_notebook
 ---
 
-## Your Turn 1
+## Your Turn 1  
 
 Read through this document.  Practice editing text.
 
