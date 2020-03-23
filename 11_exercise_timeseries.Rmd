@@ -41,6 +41,5 @@ duke_2ndround_win_probability
 In the code chunk, below, make the above plot a plotly plot
 
 ```{r}
-
 ```
 

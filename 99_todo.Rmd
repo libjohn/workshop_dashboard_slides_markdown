@@ -55,5 +55,13 @@ output: html_notebook
         
 - Dashboards
 
-    - 
+    - https://rfun-flexdashboards.netlify.com/slides/
+    - demo:  see dashboard_demo folder
     
+        - https://rfun-flexdashboards.netlify.com/
+    
+    - Exercises
+    
+        - 11_exercises_timeseries.Rmd
+        - 12_exercises_crosstalk_map.Rmd
+        - 13_exercises_all_together.Rmd

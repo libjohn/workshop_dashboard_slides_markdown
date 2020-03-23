@@ -18,7 +18,7 @@ library(crosstalk)
 ## Load Data
 
 ```{r}
-map <- read_csv("data/mockaroo_latlon.csv")
+map <- read_csv("https://raw.githubusercontent.com/libjohn/workshop_flexdashboards/master/data/mockaroo_latlon.csv")
 
 map
 ```
