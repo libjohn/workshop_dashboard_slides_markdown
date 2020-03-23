@@ -6,6 +6,7 @@ output: html_notebook
 ---
 
 - [ ] markdown/Markdup  (literate coding & Reproducibility ~Jupyter notebook)
+- [ ] Show side by side at hackMD
 - [ ] exercise and render with pandoc
 - [ ] citation to definitive markdown guide
 - [ ] exhaustive URL resource list (markdown, render, pandoc)

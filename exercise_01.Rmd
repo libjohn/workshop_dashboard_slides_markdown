@@ -2,9 +2,13 @@
 title: "How to use Markdown"
 author: "John Little"
 date:  "`r Sys.Date()`"
+abstract:  "To render this document, click the preview button (Ctrl+Shift+K)"
 output:  html_notebook
 ---
 
+## Your Turn 1
+
+Read through this document.  Practice editing text.
 
 ## My first markdown note
 
@@ -29,7 +33,7 @@ Favorite fruits
 - grape
 
 Checkbox
-- [x] Create my first HackMD note (this one!)
+- [x] Create my first markdown document (this one!)
 - [ ] Change its title
 - [ ] Add a tag
 
@@ -81,12 +85,30 @@ $$
 
 The formula for the Area of a circle is ... $A = \pi*r^{2}$
 
-- Code block with color and line numbers：
+
+## YOUR TURN 2
+
+1. Insert a code chunk using the insert button (Ctrl+Alt+I).  
+1. Excutue the following code:   plot(cars)
+1. Run All.  Then preview the document.
+
+### Example
+
+- Code block：
+
+```{r}
+library(tidyverse)
+```
+
 
 ```{r}
 starwars %>%
-  filter(hair_color == "brown")
+  filter(str_detect(hair_color, "auburn"))
 ```
 
 `monospacing and inline code` can also be used
+
+### Your code goes after this line
+
+
 

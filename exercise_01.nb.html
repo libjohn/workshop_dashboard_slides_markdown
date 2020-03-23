@@ -11,7 +11,7 @@
 
 <meta name="author" content="John Little" />
 
-<meta name="date" content="2020-03-20" />
+<meta name="date" content="2020-03-23" />
 
 <title>How to use Markdown</title>
 
@@ -1569,6 +1569,16 @@ if (window.hljs) {
 </script>
 
 
+<style type="text/css">
+  p.abstract{
+    text-align: center;
+    font-weight: bold;
+  }
+  div.abstract{
+    margin: auto;
+    width: 90%;
+  }
+</style>
 
 <style type="text/css">
 h1 {
@@ -1747,12 +1757,20 @@ summary {
 
 <h1 class="title toc-ignore">How to use Markdown</h1>
 <h4 class="author">John Little</h4>
-<h4 class="date">2020-03-20</h4>
+<h4 class="date">2020-03-23</h4>
+<div class="abstract">
+<p class="abstract">Abstract</p>
+To render this document, click the preview button (Ctrl+Shift+K)
+</div>
 
 </div>
 
 
 <!-- rnb-text-begin -->
+<div id="your-turn-1" class="section level2">
+<h2>Your Turn 1</h2>
+<p>Read through this document. Practice editing text.</p>
+</div>
 <div id="my-first-markdown-note" class="section level2">
 <h2>My first markdown note</h2>
 <div id="tags-test-hello-world" class="section level6">
@@ -1769,7 +1787,7 @@ summary {
 <h3>Step 1: Change the title and add a tag</h3>
 <p>Favorite fruits - orange - nectarine<br />
 - apple - grape</p>
-<p>Checkbox - [x] Create my first HackMD note (this one!) - [ ] Change its title - [ ] Add a tag</p>
+<p>Checkbox - [x] Create my first markdown document (this one!) - [ ] Change its title - [ ] Add a tag</p>
 </div>
 <div id="step-2-write-something-in-markdown" class="section level3">
 <h3>Step 2: Write something in Markdown</h3>
@@ -1848,19 +1866,41 @@ x = {-b \pm \sqrt{b^2-4ac} \over 2a}
 <li>Inline equations</li>
 </ul>
 <p>The formula for the Area of a circle is … <span class="math inline">\(A = \pi*r^{2}\)</span></p>
+</div>
+<div id="your-turn-2" class="section level2">
+<h2>YOUR TURN 2</h2>
+<ol style="list-style-type: decimal">
+<li>Insert a code chunk using the insert button (Ctrl+Alt+I).<br />
+</li>
+<li>Excutue the following code: plot(cars)</li>
+<li>Run All. Then preview the document.</li>
+</ol>
+<div id="example" class="section level3">
+<h3>Example</h3>
 <ul>
-<li>Code block with color and line numbers：</li>
+<li>Code block：</li>
 </ul>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3RhcndhcnMgJT4lXG4gIGZpbHRlcihoYWlyX2NvbG9yID09IFwiYnJvd25cIilcbmBgYCJ9 -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeSh0aWR5dmVyc2UpXG5gYGAifQ== -->
+<pre class="r"><code>library(tidyverse)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3RhcndhcnMgJT4lXG4gIGZpbHRlcihzdHJfZGV0ZWN0KGhhaXJfY29sb3IsIFwiYXVidXJuXCIpKVxuYGBgIn0= -->
 <pre class="r"><code>starwars %&gt;%
-  filter(hair_color == &quot;brown&quot;)</code></pre>
+  filter(str_detect(hair_color, &quot;auburn&quot;))</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p><code>monospacing and inline code</code> can also be used</p>
+</div>
+<div id="your-code-goes-after-this-line" class="section level3">
+<h3>Your code goes after this line</h3>
 <!-- rnb-text-end -->
+</div>
 </div>
 <div class="footnotes">
 <hr />
@@ -1871,7 +1911,7 @@ x = {-b \pm \sqrt{b^2-4ac} \over 2a}
 </ol>
 </div>
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIkhvdyB0byB1c2UgTWFya2Rvd24iDQphdXRob3I6ICJKb2huIExpdHRsZSINCmRhdGU6ICAiYHIgU3lzLkRhdGUoKWAiDQpvdXRwdXQ6ICBodG1sX25vdGVib29rDQotLS0NCg0KDQojIyBNeSBmaXJzdCBtYXJrZG93biBub3RlDQoNCiMjIyMjIyB0YWdzOiBgdGVzdGAgYGhlbGxvIHdvcmxkYA0KDQo+IFRoaXMgaXMgYSBub3RlLiAgU2VlICh0byB0aGUgcmlnaHQpIGhvdyB0aGUgbm90ZSBhcHBlYXJzIGFzIGEgaGlnaGxpZ2h0PyAgWW91IGNhbiB1c2UgdGhlIGA+YCBtYXJrdXAgeW91ciBhbnkgdGV4dC4NCj4gIEFkZCB5b3VyIG93biB0ZXh0LiAgDQoNCiMjICBTZWNvbmQgbGV2ZWwgaGVhZGVyDQoNCkZvciBtb3JlIE1hcmtkb3duIGhlbHAgc2VlDQoxLiBIZWxwID4gTWFya2Rvd24gcXVpY2sgcmVmZXJlbmNlDQoyLiBIZWxwID4gQ2hlYXRzaGVldHMgPiBSIE1hcmtkb3duIGNoZWF0IHNoZWV0cw0KMy4gW1IgTWFya2Rvd25dKGh0dHA6Ly9ybWFya2Rvd24ucnN0dWRpby5jb20pIE5vdGVib29rcw0KDQojIyMgU3RlcCAxOiBDaGFuZ2UgdGhlIHRpdGxlIGFuZCBhZGQgYSB0YWcNCg0KRmF2b3JpdGUgZnJ1aXRzDQotIG9yYW5nZQ0KICAgIC0gbmVjdGFyaW5lICAgICAgIA0KLSBhcHBsZQ0KLSBncmFwZQ0KDQpDaGVja2JveA0KLSBbeF0gQ3JlYXRlIG15IGZpcnN0IEhhY2tNRCBub3RlICh0aGlzIG9uZSEpDQotIFsgXSBDaGFuZ2UgaXRzIHRpdGxlDQotIFsgXSBBZGQgYSB0YWcNCg0KIyMjIFN0ZXAgMjogV3JpdGUgc29tZXRoaW5nIGluIE1hcmtkb3duDQoNCldyaXRlIHNvbWV0aGluZyBlbHNlIGluIHRoaXMgYmFzaWMgcGFyYWdyYXBoDQoqKkV2ZXJ5b25lIGNhbiBzdHJ1Y3R1cmUgZG9jdW1lbnRzIHdpdGggTWFya2Rvd24uKiogICBfTW9zdCBwZW9wbGUgbG92ZV8gbWFya2Rvd24uICB+flNvbWUgcGVvcGxlIGFyZSBsZXNzIGVudGh1c2lhc3RpY35+LiBBZGQgeW91ciBvd24gdGV4dCBpbiB0aGlzIHBhcmFncmFwaC5eW0lubGluZXMgbm90ZXMgZG9uJ3QgaGF2ZSB0byBwaWNrIGFuIGlkZW50aWZpZXIuIF0gIFlvdSBjYW4gbWFuYWdlIGZvb3Rub3RlcywgY2l0YXRpb25zLCBhbmQgYmlibGlvZ3JhcGhpZXMuICBMZWFybiBtb3JlIGFib3V0IGNpdGF0aW9ucyBhbmQgYmlibGlvZ3JhcGhpZXMgaW4gdGhlIENoZWF0c2hlZXQgYChSU3R1ZGlvIElERSA+IEhlbHAgPiBDaGVhdHNoZWV0cyA+IFIgTWFya2Rvd24gY2hlYXQgc2hlZXQpYF5bIFtCcm93c2UgYWxsIHRoZSBSU3R1ZGlvIENoZWF0c2hlZXRzXShodHRwczovL3JzdHVkaW8uY29tL3Jlc291cmNlcy9jaGVhdHNoZWV0cy8pIF0gVGhlcmUgaXMgbW9yZSB0aGFuIG9uZSBraW5kIG9mIG1hcmt1cCBmb3IgZm9vdG5vdGVzLiAgSSBsaWtlIHRoZSBhYm92ZSBzdHlsZS4gIEhvd2V2ZXIsIHlvdSBjYW4gYWxzbyBkbyB1c2UgdGhpcyBzdHlsZS5bXmZvb3Rub3RlXQ0KDQpbXmZvb3Rub3RlXTogVGVzdCwgW0xpbmtdKGh0dHBzOi8vZ29vZ2xlLmNvbSkuDQoNCi0gW3hdICoqQm9sZCoqDQotIFsgXSAqSXRhbGljKg0KLSBbIF0gU3VwZXJec2NyaXB0Xg0KLSBbIF0gU3VifnNjcmlwdH4NCi0gWyBdIH5+U3RyaWtldGhyb3VnaH5+DQoNCg0KIVtMaWJyYXJ5IEJ1aWxkaW5nXShodHRwOi8vbGlicmFyeS5kdWtlLmVkdS9kaWdpdGFsY29sbGVjdGlvbnMvbWVkaWEvanBnL3VhX2V4aGliaXQvbWVkL2Jvc3RvY2tsaWJyYXJ5LmpwZyAiRHVrZSBVbml2ZXJzaXR5IExpYnJhcmllcyIpDQoNCg0KIyMgQk9OVVM6IE1vcmUgY29vbCBtYXJrZG93biB0cmlja3MNCg0KVGFibGUgMSAgDQoNCnwgUmVzb3VyY2VzICAgICAgICAgIHwgQWNyb255bSAgICAgICAgICAgICAgICAgfA0KfCAtLS0tLS0tLS0tLS0tLS0tLS0gfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSB8DQp8IFtSIGxlYXJuaW5nIHNlcmllc10oaHR0cHM6Ly9yZnVuLmxpYnJhcnkuZHVrZS5lZHUpICAgfCBSZnVuIHwgICAgICAgDQpbQ2VudGVyIGZvciBEYXRhICYgVmlzdWFsaXphdGlvbiBTY2llbmNlc10oaHR0cHM6Ly9saWJyYXJ5LmR1a2UuZWR1L2RhdGEvKSAgfCBDRFZTICAgfA0KfCBbUlN0dWRpbyBQcmltZXJzXShodHRwczovL1JzdHVkaW8uY2xvdWQvbGVhcm4vcHJpbWVycykgfCBObyBBY3JvbnltIHwNCg0KDQpUYWJsZSAyICANCg0KIHwgfCANCi0tLSB8Oi0tLTp8IC0tLTogIA0KYXBwbGVzIHwgcmVkIHw2ICANCmdyYXBlcyB8IGdyZWVuIHwgMzIgIA0Kb3JhbmdlcyBhbmQgbmFubmVycyAmbmJzcDsgfCBvcmFuZ2UveWVsbG93IHwgMiAgDQoNCiAmbmJzcDsNCg0KLSBMYVRlWCBmb3IgZm9ybXVsYXMNCg0KJCQNCnggPSB7LWIgXHBtIFxzcXJ0e2JeMi00YWN9IFxvdmVyIDJhfQ0KJCQNCg0KLSBJbmxpbmUgZXF1YXRpb25zDQoNClRoZSBmb3JtdWxhIGZvciB0aGUgQXJlYSBvZiBhIGNpcmNsZSBpcyAuLi4gJEEgPSBccGkqcl57Mn0kDQoNCi0gQ29kZSBibG9jayB3aXRoIGNvbG9yIGFuZCBsaW5lIG51bWJlcnPvvJoNCg0KYGBge3J9DQpzdGFyd2FycyAlPiUNCiAgZmlsdGVyKGhhaXJfY29sb3IgPT0gImJyb3duIikNCmBgYA0KDQpgbW9ub3NwYWNpbmcgYW5kIGlubGluZSBjb2RlYCBjYW4gYWxzbyBiZSB1c2VkDQoNCg==</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIkhvdyB0byB1c2UgTWFya2Rvd24iDQphdXRob3I6ICJKb2huIExpdHRsZSINCmRhdGU6ICAiYHIgU3lzLkRhdGUoKWAiDQphYnN0cmFjdDogICJUbyByZW5kZXIgdGhpcyBkb2N1bWVudCwgY2xpY2sgdGhlIHByZXZpZXcgYnV0dG9uIChDdHJsK1NoaWZ0K0spIg0Kb3V0cHV0OiAgaHRtbF9ub3RlYm9vaw0KLS0tDQoNCiMjIFlvdXIgVHVybiAxDQoNClJlYWQgdGhyb3VnaCB0aGlzIGRvY3VtZW50LiAgUHJhY3RpY2UgZWRpdGluZyB0ZXh0Lg0KDQojIyBNeSBmaXJzdCBtYXJrZG93biBub3RlDQoNCiMjIyMjIyB0YWdzOiBgdGVzdGAgYGhlbGxvIHdvcmxkYA0KDQo+IFRoaXMgaXMgYSBub3RlLiAgU2VlICh0byB0aGUgcmlnaHQpIGhvdyB0aGUgbm90ZSBhcHBlYXJzIGFzIGEgaGlnaGxpZ2h0PyAgWW91IGNhbiB1c2UgdGhlIGA+YCBtYXJrdXAgeW91ciBhbnkgdGV4dC4NCj4gIEFkZCB5b3VyIG93biB0ZXh0LiAgDQoNCiMjICBTZWNvbmQgbGV2ZWwgaGVhZGVyDQoNCkZvciBtb3JlIE1hcmtkb3duIGhlbHAgc2VlDQoxLiBIZWxwID4gTWFya2Rvd24gcXVpY2sgcmVmZXJlbmNlDQoyLiBIZWxwID4gQ2hlYXRzaGVldHMgPiBSIE1hcmtkb3duIGNoZWF0IHNoZWV0cw0KMy4gW1IgTWFya2Rvd25dKGh0dHA6Ly9ybWFya2Rvd24ucnN0dWRpby5jb20pIE5vdGVib29rcw0KDQojIyMgU3RlcCAxOiBDaGFuZ2UgdGhlIHRpdGxlIGFuZCBhZGQgYSB0YWcNCg0KRmF2b3JpdGUgZnJ1aXRzDQotIG9yYW5nZQ0KICAgIC0gbmVjdGFyaW5lICAgICAgIA0KLSBhcHBsZQ0KLSBncmFwZQ0KDQpDaGVja2JveA0KLSBbeF0gQ3JlYXRlIG15IGZpcnN0IG1hcmtkb3duIGRvY3VtZW50ICh0aGlzIG9uZSEpDQotIFsgXSBDaGFuZ2UgaXRzIHRpdGxlDQotIFsgXSBBZGQgYSB0YWcNCg0KIyMjIFN0ZXAgMjogV3JpdGUgc29tZXRoaW5nIGluIE1hcmtkb3duDQoNCldyaXRlIHNvbWV0aGluZyBlbHNlIGluIHRoaXMgYmFzaWMgcGFyYWdyYXBoDQoqKkV2ZXJ5b25lIGNhbiBzdHJ1Y3R1cmUgZG9jdW1lbnRzIHdpdGggTWFya2Rvd24uKiogICBfTW9zdCBwZW9wbGUgbG92ZV8gbWFya2Rvd24uICB+flNvbWUgcGVvcGxlIGFyZSBsZXNzIGVudGh1c2lhc3RpY35+LiBBZGQgeW91ciBvd24gdGV4dCBpbiB0aGlzIHBhcmFncmFwaC5eW0lubGluZXMgbm90ZXMgZG9uJ3QgaGF2ZSB0byBwaWNrIGFuIGlkZW50aWZpZXIuIF0gIFlvdSBjYW4gbWFuYWdlIGZvb3Rub3RlcywgY2l0YXRpb25zLCBhbmQgYmlibGlvZ3JhcGhpZXMuICBMZWFybiBtb3JlIGFib3V0IGNpdGF0aW9ucyBhbmQgYmlibGlvZ3JhcGhpZXMgaW4gdGhlIENoZWF0c2hlZXQgYChSU3R1ZGlvIElERSA+IEhlbHAgPiBDaGVhdHNoZWV0cyA+IFIgTWFya2Rvd24gY2hlYXQgc2hlZXQpYF5bIFtCcm93c2UgYWxsIHRoZSBSU3R1ZGlvIENoZWF0c2hlZXRzXShodHRwczovL3JzdHVkaW8uY29tL3Jlc291cmNlcy9jaGVhdHNoZWV0cy8pIF0gVGhlcmUgaXMgbW9yZSB0aGFuIG9uZSBraW5kIG9mIG1hcmt1cCBmb3IgZm9vdG5vdGVzLiAgSSBsaWtlIHRoZSBhYm92ZSBzdHlsZS4gIEhvd2V2ZXIsIHlvdSBjYW4gYWxzbyBkbyB1c2UgdGhpcyBzdHlsZS5bXmZvb3Rub3RlXQ0KDQpbXmZvb3Rub3RlXTogVGVzdCwgW0xpbmtdKGh0dHBzOi8vZ29vZ2xlLmNvbSkuDQoNCi0gW3hdICoqQm9sZCoqDQotIFsgXSAqSXRhbGljKg0KLSBbIF0gU3VwZXJec2NyaXB0Xg0KLSBbIF0gU3VifnNjcmlwdH4NCi0gWyBdIH5+U3RyaWtldGhyb3VnaH5+DQoNCg0KIVtMaWJyYXJ5IEJ1aWxkaW5nXShodHRwOi8vbGlicmFyeS5kdWtlLmVkdS9kaWdpdGFsY29sbGVjdGlvbnMvbWVkaWEvanBnL3VhX2V4aGliaXQvbWVkL2Jvc3RvY2tsaWJyYXJ5LmpwZyAiRHVrZSBVbml2ZXJzaXR5IExpYnJhcmllcyIpDQoNCg0KIyMgQk9OVVM6IE1vcmUgY29vbCBtYXJrZG93biB0cmlja3MNCg0KVGFibGUgMSAgDQoNCnwgUmVzb3VyY2VzICAgICAgICAgIHwgQWNyb255bSAgICAgICAgICAgICAgICAgfA0KfCAtLS0tLS0tLS0tLS0tLS0tLS0gfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSB8DQp8IFtSIGxlYXJuaW5nIHNlcmllc10oaHR0cHM6Ly9yZnVuLmxpYnJhcnkuZHVrZS5lZHUpICAgfCBSZnVuIHwgICAgICAgDQpbQ2VudGVyIGZvciBEYXRhICYgVmlzdWFsaXphdGlvbiBTY2llbmNlc10oaHR0cHM6Ly9saWJyYXJ5LmR1a2UuZWR1L2RhdGEvKSAgfCBDRFZTICAgfA0KfCBbUlN0dWRpbyBQcmltZXJzXShodHRwczovL1JzdHVkaW8uY2xvdWQvbGVhcm4vcHJpbWVycykgfCBObyBBY3JvbnltIHwNCg0KDQpUYWJsZSAyICANCg0KIHwgfCANCi0tLSB8Oi0tLTp8IC0tLTogIA0KYXBwbGVzIHwgcmVkIHw2ICANCmdyYXBlcyB8IGdyZWVuIHwgMzIgIA0Kb3JhbmdlcyBhbmQgbmFubmVycyAmbmJzcDsgfCBvcmFuZ2UveWVsbG93IHwgMiAgDQoNCiAmbmJzcDsNCg0KLSBMYVRlWCBmb3IgZm9ybXVsYXMNCg0KJCQNCnggPSB7LWIgXHBtIFxzcXJ0e2JeMi00YWN9IFxvdmVyIDJhfQ0KJCQNCg0KLSBJbmxpbmUgZXF1YXRpb25zDQoNClRoZSBmb3JtdWxhIGZvciB0aGUgQXJlYSBvZiBhIGNpcmNsZSBpcyAuLi4gJEEgPSBccGkqcl57Mn0kDQoNCg0KIyMgWU9VUiBUVVJOIDINCg0KMS4gSW5zZXJ0IGEgY29kZSBjaHVuayB1c2luZyB0aGUgaW5zZXJ0IGJ1dHRvbiAoQ3RybCtBbHQrSSkuICANCjEuIEV4Y3V0dWUgdGhlIGZvbGxvd2luZyBjb2RlOiAgIHBsb3QoY2FycykNCjEuIFJ1biBBbGwuICBUaGVuIHByZXZpZXcgdGhlIGRvY3VtZW50Lg0KDQojIyMgRXhhbXBsZQ0KDQotIENvZGUgYmxvY2vvvJoNCg0KYGBge3J9DQpsaWJyYXJ5KHRpZHl2ZXJzZSkNCmBgYA0KDQoNCmBgYHtyfQ0Kc3RhcndhcnMgJT4lDQogIGZpbHRlcihzdHJfZGV0ZWN0KGhhaXJfY29sb3IsICJhdWJ1cm4iKSkNCmBgYA0KDQpgbW9ub3NwYWNpbmcgYW5kIGlubGluZSBjb2RlYCBjYW4gYWxzbyBiZSB1c2VkDQoNCiMjIyBZb3VyIGNvZGUgZ29lcyBhZnRlciB0aGlzIGxpbmUNCg0KDQoNCg==</div>
 
 
 
@@ -1918,7 +1958,7 @@ $(document).ready(function () {
 <!-- code folding -->
 <script>
 $(document).ready(function () {
-  window.initializeSourceEmbed("01_markdown.Rmd");
+  window.initializeSourceEmbed("exercise_01.Rmd");
   window.initializeCodeFolding("show" === "show");
 });
 </script>
