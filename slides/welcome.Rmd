@@ -32,7 +32,7 @@ background-image: url(images/Rfun1.png)
 
 &nbsp;
 ---
-## Dashaboars, Slides & Markdown
+## Dashboards, Slides & Markdown
 
 An [Rfun](https://rfun.library.duke.edu/) workshop
 
@@ -49,7 +49,7 @@ An [Rfun](https://rfun.library.duke.edu/) workshop
 
 ```{r echo=FALSE}
 print("We will begin in...")
-countdown(20)
+countdown(17)
 ```
 
 
