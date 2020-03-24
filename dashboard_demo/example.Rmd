@@ -190,22 +190,25 @@ Exercises
 
 ###  
 
-1. [Easy interactive](11_exercise_timeseries.Rmd) ggplot2 via `plotlly::ggplotly()` -- [**answers**](11_exercise_timeseries_answers.html)
+1. [Easy interactive](../11_exercise_timeseries.Rmd) ggplot2 via `plotlly::ggplotly()` -- [**answers**](../11_exercise_timeseries_answers.Rmd)
 
-1. [Linked Brushing via Shared Data](12_exercise_crosstalk_map.Rmd) --  [**answers**](12_exercise_crosstalk_map_answers.html)
+1. [Linked Brushing via Shared Data](../12_exercise_crosstalk_map.Rmd) --  [**answers**](../12_exercise_crosstalk_map_answers.Rmd)
 
-1. [Putting it all together](13_exercise_all_together_answers.Rmd) (layouts, shared data, filters, gauges, value boxes) --  [**answers**](13_exercise_all_together_answers.html)
+1. [Putting it all together](../13_exercise_all_together.Rmd) (layouts, shared data, filters, gauges, value boxes) 
 
-Animate
-==============================================================
+<!-- Animate -->
+<!-- ============================================================== -->
 
-### gganimate -- Choropleth to Cartogram of population growth in Africa, 2005
+<!-- ### gganimate -- Choropleth to Cartogram of population growth in Africa, 2005 -->
 
-<img src = "https://i0.wp.com/www.r-graph-gallery.com/wp-content/uploads/2018/01/333_Animated_Cartogram_8.gif" alt = "Animation: Choropleth to Cartogram of population growth in Africa, 2005">
+<!-- <img src = "https://i0.wp.com/www.r-graph-gallery.com/wp-content/uploads/2018/01/333_Animated_Cartogram_8.gif" alt = "Animation: Choropleth to Cartogram of population growth in Africa, 2005"> -->
+
+<!-- Image Credit:  https://www.r-graph-gallery.com/cartogram/ -->
 
 
 
-> Another option is to annimate a plot.  We don't discuss that in this workshop, but you can look at the [gganimate](https://gganimate.com/) page to learn more.  Image Credit:  https://www.r-graph-gallery.com/cartogram/
+
+<!-- Annimate a plot with [gganimate](https://gganimate.com/).  -->
 
 
 Resources
